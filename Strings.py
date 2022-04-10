@@ -20,3 +20,16 @@ print("Multiplication",4 * 2)
 print("Power",4 ** 2)
 print("Addition",4 + 2)
 print("Divition",4 - 2)
+print("braket",(2 + 3) * 5)
+# Comparition Operator Give Boolean Value
+print(3 > 2 )
+print(3 >= 2 )
+print(3 < 2 )
+print(3 <= 2 )
+print(3 == 2 )
+print(3 != 2 )
+
+# logical Opertor
+print("OR : ", 3 > 2 or 2 > 3)
+print("AND : ", 3 > 2 and 2 > 3)
+print("NOT : ",not 3 > 2)
