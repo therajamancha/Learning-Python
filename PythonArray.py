@@ -25,3 +25,20 @@ print(marks)
 print(100 in marks)
 # print the lenght of array
 print(len(marks))
+#  delete or empty list in py
+marks.clear()
+print(marks)
+
+# break
+students = ["Raj","Rahul","Ronik","Rohit"]
+
+for student in students:
+  if student == "Ronik":
+    break
+  print(student)
+
+# countinue
+for student in students:
+  if student == "Rahul":
+    continue
+  print(student)
